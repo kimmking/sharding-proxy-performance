@@ -1,0 +1,34 @@
+create schema test collate latin1_swedish_ci;
+
+create table test00
+(
+	id int not null
+		primary key,
+	name varchar(20) null,
+	created datetime null
+);
+
+create table test01
+(
+	id int not null
+		primary key,
+	name varchar(20) null,
+	created datetime null
+);
+
+create table test02
+(
+	id int not null
+		primary key,
+	name varchar(20) null,
+	created datetime null
+);
+
+create table test03
+(
+	id int not null
+		primary key,
+	name varchar(20) null,
+	created datetime null
+);
+
